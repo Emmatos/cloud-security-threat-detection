@@ -1,8 +1,5 @@
 
-from src.detection_engine import (
-    detect_cloudtrail_events,
-    detect_vpc_flow_logs
-)
+from src.detection_engine import detect_cloudtrail_events, detect_vpc_flow_logs
 
 
 def test_failed_console_login_detection():

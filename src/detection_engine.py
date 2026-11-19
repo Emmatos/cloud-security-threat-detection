@@ -9,11 +9,9 @@ Analyze CloudTrail and VPC Flow Logs
 and identify suspicious security events.
 """
 
-from src.ingestion import (
-    load_cloudtrail,
-    load_vpc_flow_logs
-)
+from src.ingestion import load_cloudtrail, load_vpc_flow_logs
 from src.storage import save_findings
+
 
 def create_finding(rule_id, event_type, severity,
                    source_ip, description, recommendation):

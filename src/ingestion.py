@@ -10,7 +10,6 @@ Read simulated AWS CloudTrail events and VPC Flow Logs.
 import json
 from pathlib import Path
 
-
 # Locate the main project directory
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 

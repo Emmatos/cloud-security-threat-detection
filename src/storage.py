@@ -10,7 +10,6 @@ Create and manage the SQLite security findings database.
 import sqlite3
 from pathlib import Path
 
-
 # Locate the project directory
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
