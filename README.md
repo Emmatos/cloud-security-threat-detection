@@ -93,6 +93,42 @@ The current synthetic dataset produces:
 
 These are sample project results, not live AWS telemetry.
 
+
+## Cloud Security Operations Center — Dashboard Screenshots
+
+The following screenshots demonstrate the application's security monitoring and analytics capabilities using simulated AWS CloudTrail events and VPC Flow Logs.
+
+### 1. Security Overview
+
+Displays the total security findings and their severity distribution.
+
+![Security Overview](docs/screenshots/01-security-overview.png)
+
+### 2. Network Traffic Analysis
+
+Visualizes accepted and rejected network connections from simulated VPC Flow Logs.
+
+![Network Traffic Analysis](docs/screenshots/02-network-traffic.png)
+
+### 3. Detected Security Findings
+
+Displays detected security events, severity levels, source IP addresses, descriptions, and recommended investigation actions.
+
+![Detected Security Findings](docs/screenshots/03-security-findings.png)
+
+### 4. Source IP Analysis
+
+Visualizes the distribution of security findings across source IP addresses.
+
+![Source IP Analysis](docs/screenshots/04-source-ip-analysis.png)
+
+### 5. Active Detection Rules
+
+Shows the four implemented detection rules and their associated severity levels.
+
+![Active Detection Rules](docs/screenshots/05-detection-rules.png)
+
+
 ## Repository Structure
 
 ```text
